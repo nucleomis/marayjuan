@@ -13,6 +13,10 @@
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale}
   
+p, span{
+  color: hsl(337, 15%, 55%);
+}
+
   *:visited,*:active
   {color:inherit}
   @font-face{
@@ -22,7 +26,7 @@
   @font-face{
     font-family:"Didot LT";
     src:url("fonts/650d0d58-e300-4679-853a-3e756a508990.woff2") format("woff2")}:root{--c-bg: hsl(1, 17%, 95%);
-    --c-text: hsl(0, 15%, 55%);
+    --c-text: hsl(337, 15%, 55%);
     --font-family: 'Lobster', cursive;
     --font-serif: "Didot LT" , Didot, serif;--font-size: 17px;
     --font-lineheight: 26px;--font-weight: 400;
